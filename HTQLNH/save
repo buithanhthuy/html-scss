@@ -1,0 +1,119 @@
+<div class="table__search">
+                    <i class="fas fa-search "></i>
+                    <input type="text" placeholder="Tìm kiếm chức năng">
+                </div>
+                <div>
+                    <table class="table table-striped">
+                        <!-- -->
+                        <tbody>
+
+                            <!-- Mục yêu thích -->
+                            <tr>
+                                <th scope="row">
+                                    MỤC YÊU THÍCH
+                                </th>
+                            </tr>
+                            <!-- Quản lý đợt nhập học -->
+                            <tr>
+                                <th class="table__menu--left" scope="row">
+                                    <i class="fas fa-project-diagram icon-list"></i>
+                                    <span class="table__menu--left-title">Quản lý đợt nhập học</span>
+                                    <a> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </th>
+                            </tr>
+                            <!-- Quản lý nhập học -->
+                            <tr>
+                                <th class="table__menu--left" scope="row">
+                                    <i class="far fa-file-alt icon-list"></i>
+                                    <span class="table__menu--left-title">
+                                        Quản lý nhập học
+                                    </span>
+                                    <a> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </th>
+                            </tr>
+                            <!-- Biên chế lớp học -->
+                            <tr>
+                                <th class="table__menu--left" scope="row">
+                                    <i class="far fa-address-book icon-list"></i>
+                                    <span class="table__menu--left-title">Biên chế lớp học</span>
+                                    <a> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </th>
+                            </tr>
+                            <!-- Quản lý người học  -->
+                            <tr>
+                                <th class="table__menu--left" scope="row">
+                                    <span><i class="fas fa-male icon-list"></i></span>
+                                    <span class="table__menu--left-title">Quản lý người học</span>
+                                    <a><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                </th>
+                            </tr>
+                            <th class="table__menu--left" scope="row">
+                                <p></p>
+                                <span class="table__menu--left-title">Hồ sơ người học </span>
+                                <a> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                            </th>
+                            <th class="table__menu--left" scope="row">
+                                <p></p>
+                                <span class="table__menu--left-title">QL điểm rèn luyện</span>
+                                <a><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            </th>
+                            <th class="table__menu--left" scope="row">
+                                <p></p>
+                                <li>Thiết lập ĐK phân loại</li>
+                                <p></p>
+                            </th>
+                            <th class="table__menu--left" scope="row">
+                                <p></p>
+                                <li>DS thí sinh nộp hồ sơ</li>
+                                <p></p>
+                            </th>
+                            <th class="table__menu--left active" scope="row">
+                                <p></p>
+                                <li> Quản lý điểm rèn luyện</li>
+                                <p></p>
+                            </th>
+                            <th class="table__menu--left" scope="row">
+                                <p></p>
+                                <span class="table__menu--left-title">Biên chế lớp HC </span>
+                                <a> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                            </th>
+                            <th class="table__menu--left" scope="row">
+                                <p></p>
+                                <span class="table__menu--left-title">Quản lý nội, ngoại trú </span>
+                                <a> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                            </th>
+                            <!-- các mục khác -->
+                            <tr>
+                                <th scope="row">
+                                    CÁC MỤC KHÁC
+                                </th>
+                            </tr>
+                            <!-- Quản lý nội, ngoại trú -->
+                            <tr>
+                                <th class="table__menu--left" scope="row">
+                                    <i class="fas fa-school icon-list"></i>
+                                    <span class="table__menu--left-title">
+                                        Quản lý nội, ngoại trú
+                                    </span>
+                                    <a> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </th>
+                            </tr>
+
+                            <!-- Danh mục người học -->
+                            <tr>
+                                <th class="table__menu--left" scope="row">
+                                    <i class="fas fa-user-friends icon-list"></i>
+                                    <span class="table__menu--left-title">Danh mục người học</span>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+ display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    width: 100vw;
+    overflow: auto;

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header-left">
+                <a href="#" class="header-left-cancel"><i class="far fa-window-close"></i></a>
+                <a href="#" class="header-left-logo"><i class="fab fa-ubuntu"></i>
+                </a>
+                <a class="header-name">Hệ thống <span> Quản lý người học</span></a>
+            </div>
+            <div class="header-right">
+                <a>
+                    <i class="far fa-question-circle"></i>
+                </a>
+                <a>
+                    <i class="fas fa-cog"></i>
+                </a>
+                <a>
+                    <i class="far fa-list-alt"></i>
+                </a>
+                <a>
+                    <i class="far fa-user-circle"></i>
+                </a>
+                <a>
+                    <i class="far fa-calendar-alt"></i>
+                </a>
+            </div>
+
+        </div>
+    </header>
+    <div class="content">
+        <div class="row">
+            <!-- nav-bar -->
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 nav-bar-left">
+                <div class="search">
+                    <i class="fas fa-search "></i>
+                    <input type="text" placeholder="Tìm kiếm chức năng">
+                </div>
+                <!-- Mục yêu thích -->
+                <div class="left">
+                    <li class="left__content--title">
+                        MỤC YÊU THÍCH
+                    </li>
+                    <div>
+                        <span class="left--icon"><i class="fas fa-project-diagram icon-list"></i></span>
+                        <span class="table__menu--left-title">Quản lý đợt nhập học</span>
+                        <span>
+                            <i class="fa fa-chevron-right" aria-hidden="true"> </i>
+                        </span>
+                    </div>
+                    <div class="left--bgcolor">
+                        <span class="left--icon"><i class="far fa-file-alt icon-list"></i></span>
+                        <span class="table__menu--left-title">
+                            Quản lý nhập học
+                        </span>
+                        <span>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="left--icon"><i class="far fa-address-book icon-list"></i></span>                     
+                        <span class="table__menu--left-title">
+                            Biên chế lớp học
+                        </span>
+                        <span>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="left--bgcolor">
+                        <span class="left--icon"><i class="fas fa-male icon-list"></i></span>
+                        <span class="table__menu--left-title">Quản lý người học</span>
+                        <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                    </div>
+                    <div>
+                        <span></span>
+                        <span class="table__menu--left-title">Hồ sơ người học</span>
+                        <a><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="left__item--border">
+                        <span></span>
+                        <span class="table__menu--left-title">QL điểm rèn luyện</span>
+                        <a><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    </div>
+                    <ul>
+                        <span></span>
+                        <li>Thiết lập ĐK phân loại</li>
+                    </ul>
+                    <ul>
+                        <span></span>
+                        <li>DS thí sinh nộp hồ sơ</li>
+                    </ul>
+                    <ul>
+                        <span></span>
+                        <li>Quản lý điểm rèn luyện </li>
+                    </ul>
+                    <div  class="left--bgcolor">
+                        <span></span>
+                        <span class="table__menu--left-title">Biên chế lớp học</span>
+                        <a><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    </div>
+                    <div>
+                        <span></span>
+                        <span class="table__menu--left-title">Quản lý nội, ngoại trú </span>
+                        <a><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    </div>
+                    <li class="left__content--title">
+                        CÁC MỤC KHÁC
+                    </li>
+                    <div>
+                        <span class="left--icon"><i class="fas fa-school icon-list"></i></span>
+                        <span class="table__menu--left-title">
+                            Quản lý nội, ngoại trú
+                        </span>
+                        <span> <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    </div>
+                    <div>
+                        <span class="left--icon"><i class="fas fa-user-friends icon-list"></i></span>
+                            <span class="table__menu--left-title">Danh mục người học</span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                      
+                    </div>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 right">
+                <div class="main-content">
+                    <div> <span class="table-control">Bảng điều khiển / ... / Quản lý người học / <b>Danh sách trúng
+                                tuyển</b>
+                        </span>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <hr />
+                    <div class="list-elect">
+                        <div class="list-elect-left">
+                            <span class="table-control"><b>Danh sách trúng tuyển</b></span>
+                            <a class="question">
+                                <i class="far fa-question-circle"></i>
+                            </a>
+                        </div>
+                        <div class="list-elect-right">
+                            <i class="fas fa-search"> </i>
+                            <input class="" type="text" placeholder="Nhập từ khóa tìm kiếm" name="">
+                            <i class="fas fa-chevron-down list-elect-right-down"></i></input>
+                        </div>
+                    </div>
+                    <div class="list-tools">
+                        <div class="list-tools-left">
+                            <a class="list-tools-left-add"> Thêm mới <i class="far fa-plus-square"></i></a>
+                            <a class="list-tools-left-print"> In danh sách <i class="fas fa-print"></i></a>
+                            <a class="list-tools-left-information"> Gửi thông báo <i class="fas fa-bell"></i></a>
+                            <a class="list-tools-left-list"> Xuất danh sách <i class="fas fa-download"></i></a>
+                        </div>
+                        <div class="list-tools-right">
+                            <span class="list-tools-right-page">
+                                <span>1 - 100 của 1950</span>
+                                <a><i class="fas fa-chevron-left"></i></a>
+                                <a><i class="fas fa-chevron-right"></i></a>
+                            </span>
+                            <a class="list-tools-right-icon"> <i class="fas fa-external-link-alt"></i></a>
+                            <a class="list-tools-right-icon"> <i class="fas fa-align-justify"></i></a>
+                            <a class="list-tools-right-icon"><i class="fas fa-boxes"></i></a>
+                            <a class="list-tools-right-icon"><i class="fas fa-cog"></i></a>
+                        </div>
+                    </div>
+                    <div class="scroll__list--item">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="header-table">
+                                        <input type="checkbox" class="checkbox">
+                                        Mã nhập học
+                                        <span class="up-down">
+                                            <i class="fas fa-caret-up"></i>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </th>
+                                    <th>Hình thức tuyển sinh
+                                        <span class="up-down">
+                                            <i class="fas fa-caret-up"></i>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </th>
+                                    <th>ĐT Đào tạo
+                                        <span class="up-down">
+                                            <i class="fas fa-caret-up"></i>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </th>
+                                    <th>Họ và Tên
+                                        <span class="up-down">
+                                            <i class="fas fa-caret-up"></i>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </th>
+                                    <th>Ngày sinh
+                                        <span class="up-down">
+                                            <i class="fas fa-caret-up"></i>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </th>
+                                    <th> CMND
+                                        <span class="up-down">
+                                            <i class="fas fa-caret-up"></i>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <div class="scroll">
+                                    <div class="a">
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                        <tr class="one-item">
+                                            <td> <input type="checkbox" class="checkbox">1234567</td>
+                                            <td>Thi tuyển </td>
+                                            <td>Nhu cầu xã hội</td>
+                                            <td> Lê Thị Hải Yến</td>
+                                            <td>05/11/2000</td>
+                                            <td>123456789</td>
+                                        </tr>
+                                    </div>
+                                </div>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

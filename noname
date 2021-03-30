@@ -1,0 +1,38 @@
+Received: by mail-oi1-f169.google.com with SMTP id d12so14944065oiw.12
+ for <wiki@oecsolution.atlassian.net>; Mon, 29 Mar 2021 18:54:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=newayict-com.20150623.gappssmtp.com; s=20150623;
+ h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+ bh=LKvPcX3wvZ1I5tUYhyIVTAsJXeuLbeAFXxjlQgxKzeI=;
+ b=NNmdmM5NGbdsDfwRDiMfBxXqwo+zc2xG+nXCTDWAm2QlpI/mSI/6i3zhxUyvVToffc
+ XeIk8546TzhHsVNit6x2PEBaZdfxBlrHM9zfercnc1ArLAdLXQ0j3WKoysnK2AAeYSgo
+ v4oIIzFjtmG0n/YcZO2OyLcvPybGCBM+po2YD98w2wVcjBVb6+JyYdG4zTEqgcaLPZm+
+ yvi9W4zy8sGOKCYt53qq7tFtnCRRkuPmJmeLic5SITrbz2Ye4CwYl2Tnk9RfnmkdxSva
+ VcyRhtMYUN43Ak1am1wHI9GhdS4PjkvGq+Xmg8s1YcQkhIR9zYxAQmsHqoZCmVxwH6FG
+ oxbw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=1e100.net; s=20161025;
+ h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+ :message-id:subject:to;
+ bh=LKvPcX3wvZ1I5tUYhyIVTAsJXeuLbeAFXxjlQgxKzeI=;
+ b=j5Kpwc7HgOs/PmkB0q8+8jbxM1Q88le9KYJS+R0P1MifboKct5BHNO2XhpHzN608/W
+ c64tn1Q3uOqwCDoXEznRAwEkthnCMOtCFFKsPmvPXabai/83lx84XfhUSIzZT63AlU48
+ DLnfXpTquhSivPGX1fb04SSt1qkNnA3ze5hoV9a3S12GbOL89OiMQYxE0quKV7y9qJha
+ r310hgiC/ku33RrlfsijhKdRIeKuDahezCzNVmjQ3+oRplQh1IuRjjBpM7nTl4H+0R2p
+ 8ZfMj62W8tl/X6KS1Bh9bAz3FdtB6bosF+ePjgXQPEcVJYL6RQ+d+DwTSYNikdmu6h2U
+ jnmw==
+X-Gm-Message-State: AOAM533vhq7RE+dzPBdJetSWwOiLMEsmPvVid7mlz7qwWNeyd5gYSL7e
+ Uwt/OHFMc9dWErzyHHqRDaw6ahKJ5HNnsnjTkIXyjAaEg2GkgmgV
+X-Google-Smtp-Source: ABdhPJy5iZttHtEvxVBGauoiGZFO+chNCCUT/K/e9aLFPSWm8OPhlli0ibI+UriCbSLS8VouTxw7kQp8yFPvixbabqY=
+X-Received: by 2002:aca:5945:: with SMTP id n66mr1408444oib.11.1617069296209;
+ Mon, 29 Mar 2021 18:54:56 -0700 (PDT)
+MIME-Version: 1.0
+References: <932460991.1087.1616997101221@94067f9cefa7>
+In-Reply-To: <932460991.1087.1616997101221@94067f9cefa7>
+From: Thanh Thuy Bui <thuybui@newayict.com>
+Date: Fri, 26 Mar 2021 19:18:08 +0700
+Message-ID: <CAHZtb-kZLaZoH1v0e48bT2fX8_mCVWBPaxg6q-Bx1_m56G43Rg@mail.gmail.com>
+Subject: Re: [Confluence] CDM - [KB] TECHNICAL STACKS > Trust Waller
+To: wiki@oecsolution.atlassian.net
+Content-Type: multipart/related; boundary="000000000000faf0de05beb7481a"
+
